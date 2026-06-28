@@ -98,3 +98,23 @@ else:
         ]
         
     pd_stream.dataframe(df_employees, use_container_width=True, hide_index=True)
+
+    # 4. DATA VISUALIZATION AND ANALYTICS LAYER
+if not df_employees.empty:
+    pd_stream.markdown("---")
+    pd_stream.markdown("### 📊 Workforce & Payroll Analytics")
+    
+    analysis_col1, analysis_col2 = pd_stream.columns(2)
+    
+    with analysis_col1:
+        pd_stream.markdown("#### 👥 Employee Count by Department")
+        # Group data to count employees per department
+        dept_counts = df_employees["Department"].value_counts().reset_index()
+        dept_counts.columns = ["Department", "Number of Employees"]
+        pd_stream.bar_chart(data=dept_counts, x="Department", y="Number of Employees", color="#0083B0")
+        
+    with analysis_col2:
+        pd_stream.markdown("#### 💰 Total Salary Expenditure by Department")
+        # Group data to sum salaries per department
+        dept_salaries = df_employees.groupby("Department")["Salary ($)"].sum().reset_index()
+        pd_stream.bar_chart(data=dept_salaries, x="Department", y="Salary ($)", color="#FF4B4B")
