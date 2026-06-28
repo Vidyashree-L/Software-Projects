@@ -7,6 +7,10 @@ A collection of professional full-stack web applications built with **Python**, 
 ## 1. 💼 Enterprise Employee Management System (EMS)
 A relational business intelligence application designed to track company workforce structures, management links, and live payroll metrics.
 
+### 📸 Application Preview
+![Employee Management System Dashboard](ems_dashboard.png)
+![Employee Management System Analytics](ems_analytics.png)
+
 ### 🛠️ EMS Features & Tech Stack
 * **Relational DB Design**: Implements linked tables (`employees` ➡️ `departments`) via SQL Foreign Keys.
 * **Live Financial Analytics**: Real-time KPI summaries capturing active headcount and total annual payroll budget.
