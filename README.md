@@ -1,16 +1,24 @@
-# 📋 Enterprise Project Task Tracker
+# 🚀 Full-Stack Engineering Portfolios
 
-A full-stack CRUD web application built with **Python**, **Streamlit**, and **SQLite** to manage, filter, and track engineering project tasks with live visual analytics.
+A collection of professional full-stack web applications built with **Python**, **Streamlit**, and **SQLite**.
 
-## 🚀 Features
-* **Full CRUD Operations**: Add, view, update, and delete tasks dynamically.
-* **Persistent Storage**: Backed by a relational SQLite database.
-* **Smart Metrics**: Real-time KPI cards tracking total, pending, and completed tasks.
-* **Advanced Filtering**: Live search by task name and category dropdown filters.
-* **Data Visualization**: Integrated Pandas and Streamlit bar charts showing task distribution.
+---
 
-## 🛠️ Tech Stack
-* **Frontend**: Streamlit (Python UI Framework)
-* **Backend Engine**: Python 3
-* **Database**: SQLite3
-* **Data Analysis**: Pandas
+## 1. 💼 Enterprise Employee Management System (EMS)
+A relational business intelligence application designed to track company workforce structures, management links, and live payroll metrics.
+
+### 🛠️ EMS Features & Tech Stack
+* **Relational DB Design**: Implements linked tables (`employees` ➡️ `departments`) via SQL Foreign Keys.
+* **Live Financial Analytics**: Real-time KPI summaries capturing active headcount and total annual payroll budget.
+* **Dynamic Business Intelligence**: Interactive bar charts powered by **Pandas** mapping workforce distribution and salary expenditures.
+* **Tech Stack**: Python 3, Streamlit, SQLite3, Pandas, Git.
+
+---
+
+## 2. 📋 Enterprise Project Task Tracker
+A clean CRUD application built to manage, filter, and track technical engineering project deadlines.
+
+### 🛠️ Task Tracker Features
+* **Full CRUD Operations**: Create, Read, Update, and Delete project assignments seamlessly.
+* **Advanced Data Filters**: Real-time query search boxes alongside dynamic operational category dropdowns.
+* **Tech Stack**: Python 3, Streamlit, SQLite3.
